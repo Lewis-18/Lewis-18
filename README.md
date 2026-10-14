@@ -42,12 +42,12 @@ I care about understanding a model's assumptions, making results reproducible, a
 
 A Windows desktop application for data preparation, statistical analysis, and scientific visualization. Its core workflows run offline, with no separate Python or Node.js setup.
 
-- **Prepare** — import CSV, TXT, and Excel; inspect fields and handle missing or duplicate records.
+- **Prepare** — import CSV, TXT, and Excel; check data quality and retain cleaning records for independent dataset versions.
 - **Analyze** — descriptive statistics, correlation, hypothesis tests, OLS regression, and PCA.
 - **Explore** — interactive 2D/3D figures and linked scatter selections.
-- **Revisit & export** — compare compatible history records; export tables, Python/R scripts, and publication figures.
+- **Revisit & export** — compare compatible history records; export editable Word/LaTeX/HTML/PDF tables, publication figures, and reproducible analysis bundles.
 
-2D figures support **PNG / SVG / PDF**. The current 3D view supports **PNG / PDF**.
+2D figures support **PNG / SVG / PDF**. The current 3D view supports **PNG / PDF**. External bundle reruns require the Python environment specified in the bundle.
 
 <p>
   <a href="https://github.com/Lewis-18/StatM"><strong>Project ↗</strong></a>
@@ -56,7 +56,7 @@ A Windows desktop application for data preparation, statistical analysis, and sc
   &nbsp; · &nbsp;
   <a href="https://github.com/Lewis-18/StatM/blob/main/README.en.md">English overview</a>
   &nbsp; · &nbsp;
-  <a href="https://github.com/Lewis-18/StatM/blob/main/EXAMPLES.md">Worked examples</a>
+  <a href="https://github.com/Lewis-18/StatM/blob/main/EXAMPLES.en.md">Worked examples</a>
 </p>
 
 ## Tools I build with
